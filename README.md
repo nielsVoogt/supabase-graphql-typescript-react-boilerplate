@@ -3,12 +3,20 @@
 [x] Vite
 [x] React
 [x] Typescript
-[ ] Jest
-[ ] Cypress
 [x] Tailwind
 [x] Supabase
-[x] Apollo Client
+[x] Authentication
 [x] Mantine
-Zustand
-Sentry
 [x] Eslint
+[ ] Jest
+[ ] Cypress
+[ ] Zustand
+[ ] Sentry
+[ ] Analytics
+[ ] PWA
+[ ] Sending emails
+[ ] Payment processor?
+[ ] Dark mode
+[ ] User/Customer
+[ ] Onboaring flow
+[ ] Admin/Roles
