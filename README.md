@@ -1,0 +1,1 @@
+# supabase-graphql-typescript-react-boilerplate
