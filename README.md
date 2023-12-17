@@ -7,7 +7,6 @@
 [ ] Cypress
 [x] Tailwind
 [x] Supabase
-[ ] GraphQL
 [x] Apollo Client
 [x] Mantine
 Zustand
