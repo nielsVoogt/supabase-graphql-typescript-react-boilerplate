@@ -1,4 +1,3 @@
-import DisplayLocations from "@/components/DisplayLocations";
 import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthProvider";
 
@@ -18,7 +17,6 @@ const Home = () => {
       <div>You are logged in and your email address is {user?.email}</div>;
       <Link to={"/register"}>Register</Link>
       <button onClick={handleLogout}>Logout</button>
-      <DisplayLocations />
     </>
   );
 };
