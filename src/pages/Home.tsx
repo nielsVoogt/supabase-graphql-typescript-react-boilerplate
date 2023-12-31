@@ -14,8 +14,7 @@ const Home = () => {
   };
   return (
     <>
-      <div>You are logged in and your email address is {user?.email}</div>;
-      <Link to={"/register"}>Register</Link>
+      <div>You are logged in and your email address is {user?.email}</div>
       <button onClick={handleLogout}>Logout</button>
     </>
   );

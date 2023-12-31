@@ -8,15 +8,15 @@
 [x] Authentication
 [x] Mantine
 [x] Eslint
+[x] Multilingual
 [ ] Jest
 [ ] Cypress
 [ ] Zustand
 [ ] Sentry
 [ ] Analytics
-[ ] PWA
+[X] PWA
 [ ] Sending emails
-[ ] Payment processor?
-[ ] Dark mode
+[ ] Payment processor
 [ ] User/Customer
-[ ] Onboaring flow
+[ ] Onboarding flow
 [ ] Admin/Roles

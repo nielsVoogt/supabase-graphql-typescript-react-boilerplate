@@ -1,7 +1,6 @@
 import { Button, PasswordInput, TextInput } from "@mantine/core";
 import { Link, useNavigate } from "react-router-dom";
 
-import AuthLayout from "@/layout/AuthLayout";
 import { useAuth } from "../../context/AuthProvider";
 import { useForm } from "@mantine/form";
 
