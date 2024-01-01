@@ -1,7 +1,6 @@
-import { Link } from "react-router-dom";
 import { useAuth } from "../context/AuthProvider";
 
-const Home = () => {
+const User = () => {
   const { user, signOut } = useAuth();
 
   const handleLogout = async () => {
@@ -12,11 +11,13 @@ const Home = () => {
       console.log(error);
     }
   };
+
+  console.log(user);
   return (
     <>
-      <div>You are logged in and your email address is {user?.email}</div>
+      <div>You are logged in USER and your email address is {user?.email}</div>
       <button onClick={handleLogout}>Logout</button>
     </>
   );
 };
-export default Home;
+export default User;

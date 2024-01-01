@@ -10,7 +10,7 @@ const Register = () => {
   const form = useForm({
     initialValues: {
       email: "n.voogt@gmail.com",
-      password: "test12",
+      password: "wollawolla",
     },
 
     validate: {
@@ -27,7 +27,7 @@ const Register = () => {
     } = await login(email, password);
     if (error) console.error(error);
     if (user && session) {
-      navigate("/home");
+      user.app_metadata.claims_admin ? navigate("/admin") : navigate("/user");
     }
   });
 
